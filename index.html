@@ -28,7 +28,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <style>
             @import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
             html, body, div, span, applet, object, iframe,
@@ -47,10 +46,10 @@
              font-family: 'Jeju Gothic', sans-serif;
             }
     </style>
+
 </head>
 
 <body id="page-top" class="index">
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -190,12 +189,14 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h3><br>디자이너와 프로그래머를 모십니다.
+                    <h3><br>디프만에서
+                    <br><br>디자이너와 프로그래머를 모십니다.
                     <br><br>~ 2016.03.29<br><br>
-                    문의: elvmaks@gmail.com<br></h3>
-                    <a href="#applyModal" class="btn btn-lg btn-outline" data-toggle="modal">
+                    문의: elvmaks@gmail.com<br><br><br></h3>
+                    <a href="#applyModal" class="btn btn-lg btn-outline" data-toggle="modal"><b>
                         <i class="fa fa-hand-o-right"></i> Apply
-                    </a>
+                    </b></a>
+                    <br><br>
                 </div>
             </div>
         </div>
@@ -239,8 +240,15 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea rows="2" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
+                                <!-- 경고메세지, 원래는 area rows 5 -->
+                                <div class="alert alert-warning" role="alert" style="width:300px;">
+                                  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                                  <span class="sr-only">Error:</span>
+                                  아직은 준비중인 기능입니다.
+                                </div>
+                                <!-- 경고메세지 끝 -->
                             </div>
                         </div>
                         <br>
@@ -301,7 +309,7 @@
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" style="padding-top: 50px;" style="padding-top: 50px;">
+            <div class="modal-content" style="padding:50px;">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
@@ -312,7 +320,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>디프만 오리엔테이션</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/1.png" class="img-responsive img-centered" alt="">
                                 <p>2016년 3월 5일 토요일, 디프만 첫 오티가 성공적으로 끝났습니다. 실력있는 디자이너분들과 프로그래머분들이 모였고, 각자 본인을 매력을 어필하는 자기소개를 해주셨습니다. 뒷풀이에서는 맛있는 음식과 함께 우리 동아리에 바라는 점과 앞으로의 방향성을 제시하는 자리가 되었습니다.</p>
@@ -322,7 +330,7 @@
                                         </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                <button type="button" class="btn btn-lg btn-outline" data-dismiss="modal" style="color:black"><i class="fa fa-times"></i> Close</button>                        
                             </div>
                         </div>
                     </div>
@@ -332,7 +340,7 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" style="padding-top: 50px;">
+            <div class="modal-content" style="padding:50px;">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
@@ -343,7 +351,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>디프만 첫 자율세미나</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/2.png" class="img-responsive img-centered" alt="">
                                 <p>디프만의 첫! 세미나는 3 / 13 신촌 베스트 프렌드 스터디룸에서 이루어졌습니다<br>
@@ -357,7 +365,7 @@
                                         </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                <button type="button" class="btn btn-lg btn-outline" data-dismiss="modal" style="color:black"><i class="fa fa-times"></i> Close</button>                        
                             </div>
                         </div>
                     </div>
@@ -367,28 +375,22 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" style="padding-top: 50px;">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-content" style="padding:50px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>디프만 메인 포스터</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/3.png" class="img-responsive img-centered" alt="">
-                                <p>Project</p>
+                                <p>오프라인 출력이 될 메인 포스터</p>
                                 <ul class="list-inline item-details">
                                     <li>Date:
-                                        <strong><a href="http://www.depromeet.com/">April 2014</a>
+                                        <strong><a href="http://www.depromeet.com/">2016.03.15</a>
                                         </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                <button type="button" class="btn btn-lg btn-outline" data-dismiss="modal" style="color:black"><i class="fa fa-times"></i> Close</button>                        
                             </div>
                         </div>
                     </div>
@@ -398,28 +400,22 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" style="padding-top: 50px;">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-content" style="padding:50px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>디프만 PPT</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/4.png" class="img-responsive img-centered" alt="">
-                                <p>Project</p>
+                                <p>창립 당시 만들었던 PPT</p>
                                 <ul class="list-inline item-details">
                                     <li>Date:
-                                        <strong><a href="http://www.depromeet.com/">April 2014</a>
+                                        <strong><a href="http://www.depromeet.com/">2016.02.10</a>
                                         </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                <button type="button" class="btn btn-lg btn-outline" data-dismiss="modal" style="color:black"><i class="fa fa-times"></i> Close</button>                        
                             </div>
                         </div>
                     </div>
@@ -429,7 +425,7 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" style="padding-top: 50px;">
+            <div class="modal-content" style="padding:50px;">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
@@ -440,17 +436,17 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>디프만 포스터</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/5.png" class="img-responsive img-centered" alt="">
-                                <p>Project</p>
+                                <p>디프만 포스터</p>
                                 <ul class="list-inline item-details">
                                     <li>Date:
-                                        <strong><a href="http://www.depromeet.com/">April 2014</a>
+                                        <strong><a href="http://www.depromeet.com/">2016.03.13.</a>
                                         </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                <button type="button" class="btn btn-lg btn-outline" data-dismiss="modal" style="color:black"><i class="fa fa-times"></i> Close</button>                        
                             </div>
                         </div>
                     </div>
@@ -460,7 +456,7 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" style="padding-top: 50px;">
+            <div class="modal-content" style="padding:50px;">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
@@ -471,17 +467,17 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>디프만 포스터</h2>
                                 <hr class="star-primary">
                                 <img src="img/portfolio/6.png" class="img-responsive img-centered" alt="">
-                                <p>Project</p>
+                                <p>디프만 포스터</p>
                                 <ul class="list-inline item-details">
                                     <li>Date:
-                                        <strong><a href="http://www.depromeet.com/">April 2014</a>
+                                        <strong><a href="http://www.depromeet.com/">2016.03.13.</a>
                                         </strong>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                <button type="button" class="btn btn-lg btn-outline" data-dismiss="modal" style="color:black"><i class="fa fa-times"></i> Close</button>                        
                             </div>
                         </div>
                     </div>
@@ -491,7 +487,7 @@
     </div>
     <div class="portfolio-modal modal fade" id="applyModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" style="padding:50px;">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
@@ -500,28 +496,92 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-5 col-lg-offset-1 text-center">
-                        <h3><프로그래머><br><br></h3>
                         <div class="col-lg-8 col-lg-offset-2 text-center">
-                            <a href="recruit/programmer.html" class="btn btn-lg btn-outline" style="color:black">
-                                <i class="fa fa-align-left"></i>Programmer Apply
+                            <a href="#applyProgrammerModal" class="btn btn-lg btn-outline" style="color:black" data-toggle="modal">
+                                <i class="fa fa-code"></i> 프로그래머 지원하기
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-5 text-center">
-                        <h3><디자이너><br><br></h3>
                         <div class="col-lg-8 col-lg-offset-2 text-center">
-                            <a href="recruit/designer.html" class="btn btn-lg btn-outline" style="color:black">
-                                <i class="fa fa-align-left"></i>Designer Apply
+                            <a href="#applyDesignerModal" class="btn btn-lg btn-outline" style="color:black" data-toggle="modal">
+                                <i class="fa fa-pencil"></i> 디자이너 지원하기
                             </a>
                         </div>
                     </div>
                 </div>
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <br><br><button type="button" class="btn btn-lg btn-outline" data-dismiss="modal" style="color:black"><i class="fa fa-times"></i> Close</button>                        
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="applyProgrammerModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="padding:25px; background-color:#18bc9c; color:white;">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <br><br><br><br>
+                        <h2>Recruit : Programmer</h2>
+                        <hr class="star-light">
+                        <h3>이러한 프로그래머를 모십니다  <br><br>
+                        <br><br>
+                        DB를 잘 다루시는 분<br><br>
+                        앱 개발에 관심있으신 분<br><br>
+                        웹 개발에 관심있으신 분<br><br>
+                        혹은,<br><br>
+                        프로그래밍에 자신 있으신 분<br><br>
+                        첨부파일 작성 후 elvmaks@gmail.com에 제출<br><br>
+                        ~ 2016.03.29<br><br>
+                        </h3>
+                        <a href="../files/application.docx" class="btn btn-lg btn-outline" data-toggle="modal">
+                            <i class="fa fa-download"></i> Application
+                        </a>
+                        <br><br><button type="button" class="btn btn-lg btn-outline" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="applyDesignerModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="padding:25px; background-color:#18bc9c; color:white;">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <br><br><br><br>
+                        <h2>Recruit : Designer</h2>
+                        <hr class="star-light">
+                        <h3>이러한 디자이너를 모십니다 <br><br>
+                        <br><br>
+                        에프터이펙트 등 영상 다루시는 분<br><br>
+                        웹툰, 컨셉아트, 드로잉을 다루시는 분<br><br>
+                        사진 촬영 및 편집을 다루시는 분<br><br>
+                        혹은,<br><br>
+                        디자인에 자신 있으신 분<br><br>
+                        첨부파일 작성 후 포트폴리오와 함께 elvmaks@gmail.com에 제출<br><br>
+                        ~ 2016.03.29<br><br>
+                        </h4>
+                        <a href="../files/application.docx" class="btn btn-lg btn-outline" data-toggle="modal">
+                            <i class="fa fa-download"></i> Application
+                        </a>
+                        <br><br><button type="button" class="btn btn-lg btn-outline" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>                        
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- 모달 가로 크기 세팅 -->
+    <!-- 모달 크기 세팅 -->
     <style>
     @media (min-width: 768px){
         .modal-dialog{
@@ -547,6 +607,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+
 
 </body>
 
